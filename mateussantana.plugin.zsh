@@ -21,5 +21,3 @@ alias dln="docker network list"
 alias drcomposer='docker run -it --rm -u$(id -u):$(id -g) -v$PWD:/app -v${COMPOSER_HOME:-$HOME/.composer}:/tmp composer '
 alias drphp7='docker run -it --rm -u$(id -u):$(id -g) -v$PWD:/var/www/html php:7.4-fpm '
 alias drphp8='docker run -it --rm -u$(id -u):$(id -g) -v$PWD:/var/www/html php:8-fpm '
-alias xxx="echo 'Teste!'"
-
