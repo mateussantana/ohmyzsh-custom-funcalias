@@ -16,7 +16,7 @@ Add `mateussantana` to the `plugins=()` list in your `~/.zshrc` file and you're 
 You can see all functions and aliases reading this README.md file or running `omz plugin info mateussantana` on command line.
 
 ## Auto update custom plugins (optional)
-If yoy want to update automatically your custom plugins and themes consider install [](https://github.com/TamCore/autoupdate-oh-my-zsh-plugins)
+If yoy want to update automatically your custom plugins and themes consider install [autoupdate-zsh-plugin](https://github.com/TamCore/autoupdate-oh-my-zsh-plugins)
 
 ## Installing oh-my-zsh
 Don't know how to install oh-my-zsh or want a fast tutorial?
