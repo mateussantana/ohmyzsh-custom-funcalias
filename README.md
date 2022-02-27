@@ -16,11 +16,7 @@ Add `mateussantana` to the `plugins=()` list in your `~/.zshrc` file and you're 
 You can see all functions and aliases reading this README.md file or running `omz plugin info mateussantana` on command line.
 
 ## Auto update custom plugins (optional)
-If yoy want to update automatically your custom plugins and themes consider install [autoupdate-zsh-plugin](https://github.com/TamCore/autoupdate-oh-my-zsh-plugins)
-
-## Installing oh-my-zsh
-Don't know how to install oh-my-zsh or want a fast tutorial?
-[Click here!](https://blog.rocketseat.com.br/terminal-com-oh-my-zsh-spaceship-dracula-e-mais/)
+If you want to update automatically your custom plugins and themes consider install [autoupdate-zsh-plugin](https://github.com/TamCore/autoupdate-oh-my-zsh-plugins)
 
 #
 ## Functions
@@ -32,13 +28,12 @@ Don't know how to install oh-my-zsh or want a fast tutorial?
 ## Aliases
 | Alias     | Command                 | Description                                                      |
 |-----------|-------------------------|------------------------------------------------------------------|
-| dev       | `cd ~/dev`              | Change to ~/dev directory                                        |
-| dps       | `docker ps`             | Show container proccesses                                        |
-| dpsa      | `docker ps -a`          | Show all container proccesses                                    |
-| dli       | `docker image list`     | List docker images                                               |
-| dlc       | `docker container list` | List docker containers                                           |
-| dlv       | `docker volume list`    | List docker volumes                                              |
-| dln       | `docker network list`   | List docker networks                                             |
-| drcomposer| `docker run -it --rm -u$(id -u):$(id -g) -v$PWD:/app composer `             | Run a command into composer container |
-| drphp7    | `docker run -it --rm -u$(id -u):$(id -g) -v$PWD:/var/www/html php:7.4-fpm ` | Run a command into php 7.4 container |
-| drphp8    | `docker run -it --rm -u$(id -u):$(id -g) -v$PWD:/var/www/html php:8-fpm `   | Run a command into php 8 container |
+| dev   | `cd ~/dev`              | Change to ~/dev directory                                        |
+| dps   | `docker ps`             | Show container proccesses                                        |
+| dpsa  | `docker ps -a`          | Show all container proccesses                                    |
+| dli   | `docker image list`     | List docker images                                               |
+| dlc   | `docker container list` | List docker containers                                           |
+| dlv   | `docker volume list`    | List docker volumes                                              |
+| dln   | `docker network list`   | List docker networks                                             |
+| sail  | `[ -f sail ] && bash sail \|\| bash vendor/bin/sail` | Shortcut for run sail located on ./vendor/bin if exists |
+| pa    | `php artisan`           | Shortcut to run php artisan command on Laravel applications |
