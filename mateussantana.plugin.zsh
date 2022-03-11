@@ -17,6 +17,9 @@ alias dlc="docker container list"
 alias dlv="docker volume list"
 alias dln="docker network list"
 
+# Git
+alias wip='git add . && git commit -m "wip"'
+
 # Laravel
 alias sail='[ -f sail ] && bash sail || bash vendor/bin/sail'
 alias pa='php artisan'

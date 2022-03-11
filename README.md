@@ -34,6 +34,7 @@ If you want to update automatically your custom plugins and themes consider inst
 | dli   | `docker image list`     | List docker images                                               |
 | dlc   | `docker container list` | List docker containers                                           |
 | dlv   | `docker volume list`    | List docker volumes                                              |
+| wip   | `git add . && git commit -m "wip"` | Git commit work in progress                   |
 | dln   | `docker network list`   | List docker networks                                             |
 | sail  | `[ -f sail ] && bash sail \|\| bash vendor/bin/sail` | Shortcut for run sail located on ./vendor/bin if exists |
 | pa    | `php artisan`           | Shortcut to run php artisan command on Laravel applications |
